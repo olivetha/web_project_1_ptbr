@@ -1,0 +1,36 @@
+.video {
+  margin-top: 100px;
+  overflow: visible;
+  max-height: 460px;
+}
+
+.section-title {
+  width: 60%;
+  margin: 100px auto 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  overflow: visible;
+  margin: 50px auto 0;
+}
+
+.video__iframe {
+  align-self: center;
+}
